@@ -1,13 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #171717;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* center container
+   can delete if you like
+
+.container {
+  max-width: 80rem;
+  padding: 0 1rem;
+  margin: 1rem auto 6rem;
+  text-align: center;
+}
+**/
+
+
+/** style for logo */
+.borderCircle {
+  border-radius: 9999px;
+}
+
+
+/** 404 - page not found */
+.pageNotFound {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+
+/** logo animation */
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
