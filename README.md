@@ -18,7 +18,6 @@ src
  ┃ ┗ PageNotFound.tsx
  ┣ types
  ┃ ┗ index.tsx
- ┣ utils
  ┣ App.test.tsx
  ┣ App.tsx
  ┣ index.css
