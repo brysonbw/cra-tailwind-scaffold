@@ -1,11 +1,6 @@
 # CRA Tailwind Scaffold
 
-A minimal typescript cra stater with tailwind css
-
-Packages included:
-- axios
-- react-router-dom
-- react-icons
+A minimal typescript cra stater with tailwind css and react-router-dom
 
 ## Tree (cra-tailwind-scaffold/src)
 
@@ -24,7 +19,6 @@ src
  ┣ types
  ┃ ┗ index.tsx
  ┣ utils
- ┃ ┗ axiosGlobal.tsx
  ┣ App.test.tsx
  ┣ App.tsx
  ┣ index.css
